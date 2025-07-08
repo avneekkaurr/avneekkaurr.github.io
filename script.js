@@ -1,8 +1,8 @@
 var quoteList =
   [
-  "All my feelings seem dead, except for the drive to live. They shall not destroy me. ― Anonymous", 
-  "If you think I'm going to apologize for being drugged and raped, you have another thing coming. ― E.K. Johnston", 
-  "No amount of me trying to explain myself was doing any good. I didn't even know what was going on inside of me, so how could I have explained it to them? ― Sierra D Waters", 
+  "I was born with hearing loss, I wear hearing aids!", 
+  "There's a picture of me on the computer when I was a baby, so I jokingly use it to show people why I love coding.", 
+  "I have always wanted to have a baking business, but I'm not sure how to go about it.", 
 ]; 
 
 var myButton = document.getElementById("myButton"); // Create a button variable that calls the HTML button named "myButton"
