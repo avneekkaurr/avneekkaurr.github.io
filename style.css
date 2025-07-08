@@ -166,4 +166,12 @@ nav ul li {
   text-align: center;
 }
 
+img {
+    justify-content: center;
+    width: 150px;     
+    height: 150px;     
+    object-fit: cover;
+    border-radius: 50%; 
+}
+
 
