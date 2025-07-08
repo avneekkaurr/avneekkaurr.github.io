@@ -95,6 +95,13 @@ nav ul li {
   text-align: center;
 }
 
+.protesttInfo {
+  flex: 50%;
+  padding: 0 5%;
+  font-size: 13pt;
+  text-align: center;
+}
+
 .attribution {
   font-weight: bold;
   color: #000000;
