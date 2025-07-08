@@ -74,17 +74,10 @@ nav ul li {
   text-align: center;
 }
 
-.protesttt {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  background-color: #f9fba7;
-}
-
 .protestttInfo {
   flex: 50%;
   padding: 0 5%;
-  font-size: 13pt;
+  font-size: 16pt;
   text-align: center;
 }
 
