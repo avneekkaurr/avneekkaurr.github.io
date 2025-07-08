@@ -1,109 +1,66 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+  <title>Content Warning</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
 
-     <title>Content Warning</title>
-    <meta charset="utf-8" />
-	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	  <!-- link the webpage's stylesheet -->
-	  <link rel="stylesheet" href="/style.css" />
-
-	  <!-- link the webpage's JavaScript file -->
-	  <script src="/script.js" defer></script>
-
-  </head>
-  
-  <body>
-<!--     Overlay Code Start -->
-    <div id="overlay">
-      <h10>Content Warning</h10>
-      <p id="message"> This website discusses a topic or topics which may be sensitive for some readers. Do you wish to continue to the site?</p>
-<!--       Using buttons -->
-<!--       this button will exit and go to google.com -->
-      <button id="exit">
-        <a href="https://google.com">Leave the site</a>
-      </button>
-<!--       this button will close the overlay and continue with the website  -->
-    <button id="proceed">
-      I understand, proceed to the site
+  <!-- Overlay Code Start -->
+  <div id="overlay">
+    <h1>Content Warning</h1>
+    <p id="message">This website discusses topics which may be sensitive for some readers. Do you wish to continue?</p>
+    <button id="exit">
+      <a href="https://google.com">Leave the site</a>
     </button>
-    </div>
-    
-    <title>Abortion Rights</title>
-    <meta charset="utf-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <button id="proceed">I understand, proceed to the site</button>
+  </div>
 
-      <!-- link the webpage's stylesheet -->
-      <link rel="stylesheet" href="/style.css" />
-
-      <!-- link the webpage's JavaScript file -->
-      <script src="/script.js" defer></script>
-
-  </head>
-
-  <body>
-
-    <header>
-    <h1></h1>
-</header>
-        <div id="page_wrapper">
-        <nav>
-    <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="service.html">TAKE ACTION</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-      </ul>
-    </nav>
-
-         <header>
+  <header>
     <h2>Abortion Rights</h2>
-    </header>
+  </header>
 
-          <header>
-    <h3>As we all know, Supreme Court overturned Roe v. Wade Abortion is a basic human rights that women needs.</h3>
-    </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="service.html">TAKE ACTION</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+    </ul>
+  </nav>
 
-       <div class="protest">
-      <div class="protestInfo" id="protestImg">
-        <img id="protestImg" align = center src="assets/protest.jpg" alt="a woman holding a sign during a protest">
-      </div>
-      
-      <div class="protestInfo" id="protestText">
-        <h4> Protest 1 </h4>
-        <br>
-        <p> Many women are protesting for their abortion rights. A lot of women are becoming a victim of sexual assault and the ban of abortion in many places causes them to be in distress. The longer the ban, the more violence women will cause. 62% of the women in the U.S. disapproves of the Supreme Court's decision. Unsafe abortion killed hundreds of women per year due to not having access to an abortion center.
-       </p>
-      </div>
+  <header>
+    <h3>The Supreme Court overturned Roe v. Wade. Abortion is a basic human right that women deserve access to.</h3>
+  </header>
+
+  <div class="protest">
+    <div class="protestInfo" id="protestImg">
+      <img src="assets/protest.jpg" alt="A woman holding a sign during a protest" />
     </div>
-
-    
-    <div class="protestt">
-      <div class="protesttInfo" id="protesttImg">
-        <img id="protesttImg" align = center src="assets/protest2.jpg" alt="a woman holding a sign during a protest">
-      </div>
-
-      <br>
-      <br>
-
-      
-      <div class="protesttInfo" id="protesttText">
-        <h5> Protest 2 </h5>
-        <br>
-        <p> If they could make it legal, it will reduce many problems for women and anyone who is able to get pregnant. Many women and girls are financially struggling to have a baby/or a victim of sexual assault. Some of them even have a medical condition that won’t be good for them OR the fetus. In 2021, study shows an abortion ban may lead to a 21% increase in pregnancy-related deaths. 
-       </p>
-      </div>
+    <div class="protestInfo" id="protestText">
+      <h4>Protest 1</h4>
+      <p>Many women are protesting for their abortion rights. A lot of women are becoming victims of sexual assault, and the ban on abortion in many places causes them distress. The longer the ban, the more potential harm to women. 62% of women in the U.S. disapprove of the Supreme Court's decision. Unsafe abortions kill hundreds of women each year due to lack of access to safe clinics.</p>
     </div>
+  </div>
 
-          <div class="genFact">
-          <p>Victims Words.</p>
-          <button id ="myButton">CLICK</button>
-          <p id ="quote"></p>
-          </div>
-  
-    </main>
-    
-  </body>
+  <div class="protestt">
+    <div class="protesttInfo" id="protesttImg">
+      <img src="assets/protest2.jpg" alt="Another protest photo" />
+    </div>
+    <div class="protesttInfo" id="protesttText">
+      <h5>Protest 2</h5>
+      <p>Legalizing abortion would reduce many problems for women and people who can get pregnant. Many face financial struggles or have experienced sexual assault. Some have medical conditions that pose risks to them or the fetus. A 2021 study shows abortion bans could increase pregnancy-related deaths by 21%.</p>
+    </div>
+  </div>
+
+  <div class="genFact">
+    <p>Victims' Words:</p>
+    <button id="myButton">CLICK</button>
+    <p id="quote"></p>
+  </div>
+
+</body>
 </html>
