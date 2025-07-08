@@ -168,8 +168,8 @@ nav ul li {
 
 img {
     justify-content: center;
-    width: 175px;     
-    height: 175px;     
+    width: 150px;     
+    height: 150px;     
     object-fit: cover;
     border-radius: 50%; 
 }
